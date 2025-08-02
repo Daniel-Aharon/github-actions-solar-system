@@ -36,9 +36,9 @@ jobs:
           uses: actions/upload-artifact@v4
           with:
             name: Mocha-Test-Result
-            path: test-results.xml
-        
-      code-coverage:
+            path: test-results.xml  
+      
+    code-coverage:
         name: Code Coverage
         runs-on: ubuntu-latest
         steps:
